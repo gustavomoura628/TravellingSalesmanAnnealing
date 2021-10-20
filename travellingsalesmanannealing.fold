@@ -155,14 +155,14 @@ silent! normal! zE
 419,453fold
 455,471fold
 473,480fold
-482,489fold
-491,498fold
-500,589fold
-591,609fold
-611,618fold
-620,623fold
-627,630fold
-633,638fold
+482,491fold
+493,502fold
+504,594fold
+596,614fold
+616,623fold
+625,628fold
+632,635fold
+638,643fold
 let &fdl = &fdl
 1
 normal! zo
@@ -174,7 +174,7 @@ normal! zc
 normal! zo
 392
 normal! zo
-let s:l = 1 - ((0 * winheight(0) + 15) / 31)
+let s:l = 1 - ((0 * winheight(0) + 16) / 32)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
